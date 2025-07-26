@@ -3,39 +3,47 @@ A simple full-stack web app to register, log in, view, edit, and delete users. B
 - **Frontend**: React + React Router + Playwright
 - **Backend**: Node.js + Express + SQLite + Jest/Supertest
 
-Getting started
+## Getting started
 
-- Download the repository
+npm must be installed before running the application
+Download the repository
 
+
+## Install dependencies
 (all commands assume user is on the root directory in the terminal)
-Install dependencies
-   - Backend
-        - cd backend
-        - npm install
+### Backend
+        
+    cd backend
+    npm install
+        
 
-   - Frontend
-        - cd client
-        - npm install
+### Frontend
+        
+    cd client
+    npm install  
 
-    - Playwright
-        - cd playwright
-        - npx playwright install
 
-Run the Application
-    - Backend
-        - cd backend
-        - npm start
+### Playwright
+        
+    cd playwright
+    npx playwright install
+        
 
-    - Frontend
-        - cd frontend
-        - npm start
+## Run the Application
+### Backend
+    cd backend
+    npm start
 
-Run the tests
-    - API tests
-        - cd backend
-        - npm test
+### Frontend
+    cd frontend
+    npm start
 
-    - Playwright
-        - cd playwright
-        - npx playwright test
-        - npm playwright show-report
+## Run the tests
+### API tests
+    cd backend
+    npm test
+
+### Playwright
+    cd playwright
+    npx playwright test
+    npm playwright show-report
