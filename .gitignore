@@ -1,0 +1,13 @@
+# Backend
+backend/node_modules
+
+# Frontend
+client/node_modules
+client/public
+
+# Playwright
+playwright/node_modules/
+playwright/test-results/
+playwright/playwright-report/
+playwright/blob-report/
+playwright/playwright/.cache/
