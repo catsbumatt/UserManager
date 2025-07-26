@@ -9,33 +9,33 @@ Getting started
 
 (all commands assume user is on the root directory in the terminal)
 Install dependencies
-Backend
-    cd backend
-    npm install
+   - Backend
+        - cd backend
+        - npm install
 
-Frontend
-    cd client
-    npm install
+   - Frontend
+        - cd client
+        - npm install
 
-Playwright
-    cd playwright
-    npx playwright install
+    - Playwright
+        - cd playwright
+        - npx playwright install
 
 Run the Application
-backend
-    cd backend
-    npm start
+    - Backend
+        - cd backend
+        - npm start
 
-frontend
-    cd frontend
-    npm start
+    - Frontend
+        - cd frontend
+        - npm start
 
 Run the tests
-    API tests
-        cd backend
-        npm test
+    - API tests
+        - cd backend
+        - npm test
 
-    Playwright
-        cd playwright
-        npx playwright test
-        npm playwright show-report
+    - Playwright
+        - cd playwright
+        - npx playwright test
+        - npm playwright show-report
