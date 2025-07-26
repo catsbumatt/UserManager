@@ -5,8 +5,9 @@ A simple full-stack web app to register, log in, view, edit, and delete users. B
 
 ## Getting started
 
-npm must be installed before running the application
-Download the repository
+npm must be installed before running the application 
+
+Clone the repository https://github.com/catsbumatt/UserManager.git
 
 
 ## Install dependencies
